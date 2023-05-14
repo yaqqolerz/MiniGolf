@@ -1,0 +1,682 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684093995306886, "dur": 3374453, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684093995307208, "dur": 4300, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684093995311511, "dur": 3353968, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684093998665481, "dur": 15856, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684093998681766, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684093995380947, "dur":1571, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093995382532, "dur":339, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684093995382961, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684093995382991, "dur":433, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684093995383577, "dur":932, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093995384509, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603311, "dur":252, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603563, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603580, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603584, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603592, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603594, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603600, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603602, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603608, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603611, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603617, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603619, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603624, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603626, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603634, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603636, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603642, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603657, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998603697, "dur":1385, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684093995385304, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995385305, "dur":11691, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397020, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397025, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397072, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397075, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995397735, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684093995400222, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684093995400278, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995400330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995400610, "dur":14484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684093995415120, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684093995415163, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995415209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995415218, "dur":112120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684093995527364, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093995527400, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995527582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093995527649, "dur":577972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996105646, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996105668, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996105737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996105744, "dur":249998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996355774, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996355807, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996355852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996355860, "dur":154436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996510318, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996510341, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996510376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996510382, "dur":120026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996630433, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996630456, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996630499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996630507, "dur":65231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996695765, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996695790, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996695834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996695843, "dur":129838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996825708, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996825732, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996825804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996825812, "dur":69508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996895347, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996895378, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996895439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996895447, "dur":80250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996975723, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093996975746, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996975789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093996975798, "dur":87930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997063761, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997063792, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997063834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997063844, "dur":151677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997215547, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997215571, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997215617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997215625, "dur":192049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997407698, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997407721, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997407760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997407768, "dur":239530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997647322, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997647343, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997647380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997647387, "dur":148096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997795508, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093997795683, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997795850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093997795863, "dur":402524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093998198409, "dur":141075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093998339485, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093998339660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093998339679, "dur":52078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684093998391778, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1684093998391801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093998391805, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1684093998392789, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684093998392810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093998392814, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684093998394907, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684093998394933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684093998394939, "dur":4841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684093998399804, "dur":203499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995385542, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995385543, "dur":11458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995397021, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684093995397097, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995397145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995399243, "dur":13338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684093995412604, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684093995412652, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995412685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995412693, "dur":21383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684093995434099, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684093995434139, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995434175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995434182, "dur":93205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684093995527408, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684093995527436, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995527474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995527478, "dur":38054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684093995565548, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093995565564, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995565600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995565748, "dur":329857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093995895627, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093995895649, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995895682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093995895690, "dur":209106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996104819, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996104851, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996104922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996104931, "dur":203841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996308791, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996308810, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996308843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996308849, "dur":289424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996598291, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996598311, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996598347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996598353, "dur":102984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996701364, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996701388, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996701427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996701436, "dur":55182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996756638, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996756668, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996756705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996756711, "dur":72830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996829568, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996829595, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996829646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996829692, "dur":80451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996910162, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093996910183, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996910218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093996910224, "dur":90413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997000661, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997000686, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997000735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997000743, "dur":75798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997076574, "dur":160545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997237120, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997237205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997237213, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997238376, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997238395, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997238449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997238455, "dur":219622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997458098, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997458120, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997458159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997458167, "dur":151589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997609779, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997609808, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997609849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997609857, "dur":222308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997832187, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093997832207, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997832240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093997832245, "dur":263412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093998095681, "dur":456007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093998551689, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093998551770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684093998551779, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684093998552899, "dur":50422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995385609, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995385610, "dur":11432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995397044, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684093995397112, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995397180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995399026, "dur":16490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684093995415539, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684093995415579, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995415631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995417725, "dur":109176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684093995526924, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1684093995526974, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995527011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995527021, "dur":251398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1684093995778450, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093995778476, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995778517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995778526, "dur":154838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093995933389, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093995933421, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995933453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093995933460, "dur":374384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996307866, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996307891, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996307930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996307962, "dur":35054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996343044, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996343070, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996343112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996343119, "dur":42834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996385975, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996385996, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996386035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996386043, "dur":131140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996517219, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996517441, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996517501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996517510, "dur":119478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996637011, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996637033, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996637075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996637084, "dur":64661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996701767, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996701791, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996701836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996701842, "dur":37578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996739448, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996739480, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996739523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996739531, "dur":109022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996848578, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996848603, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996848645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996848653, "dur":59971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996908649, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093996908673, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996908710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093996908719, "dur":95576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997004318, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997004340, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997004377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997004384, "dur":107411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997111819, "dur":297429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997409249, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997409332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997409459, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997414526, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997414544, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997414585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997414592, "dur":274331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997688953, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093997688981, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997689033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093997689041, "dur":534803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684093998223867, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684093998242233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998242280, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684093998243371, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998243395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998243400, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245008, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245037, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245732, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998245761, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248136, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248169, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248876, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998248903, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998251815, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998251867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998251878, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998252690, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998252740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998252745, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255218, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255251, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255972, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998255999, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998257406, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998257430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998257436, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998258096, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998258118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998258122, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260025, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260058, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260924, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998260953, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684093998262539, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684093998262564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998262570, "dur":6784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684093998269387, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998269447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998269455, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684093998270131, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684093998271446, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998271491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998271497, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684093998273034, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684093998273060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998275025, "dur":116960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684093998392005, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1684093998392026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998392031, "dur":6950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1684093998399005, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684093998399128, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998399166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684093998399170, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684093998401078, "dur":202260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995385359, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995385360, "dur":11644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995397020, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684093995397115, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995397203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995399064, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684093995409717, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684093995409757, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995409789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995409796, "dur":117545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684093995527364, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093995527406, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995527436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093995527477, "dur":723634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996251141, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996251175, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996251221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996251230, "dur":120245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996371507, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996371773, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996371882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996371892, "dur":137438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996509378, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996509407, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996509450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996509457, "dur":318724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996828210, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996828237, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996828297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996828305, "dur":53198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996881525, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093996881546, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996881581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093996881589, "dur":179566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997061182, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997061208, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997061254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997061262, "dur":154783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997216065, "dur":225530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997441596, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997441668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997441676, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997443711, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997443730, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997443764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997443771, "dur":233214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997677014, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093997677040, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997677093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093997677103, "dur":523300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093998200427, "dur":24201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093998224628, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998224677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998224685, "dur":166372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684093998391085, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998391129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998391138, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998392348, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998392373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998392403, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998394124, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998394157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998394165, "dur":4343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684093998398530, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684093998398560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684093998398568, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1684093998400597, "dur":202709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995385410, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995385411, "dur":11592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995397020, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1684093995397196, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995397265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995409625, "dur":23806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1684093995433514, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684093995433619, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995433706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995433717, "dur":93276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684093995527016, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093995527088, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995527271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995528512, "dur":344580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093995873119, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093995873150, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995873186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093995873194, "dur":275146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996148364, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996148388, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996148429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996148436, "dur":216974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996365434, "dur":338057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996703491, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996703540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996703546, "dur":6709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996710278, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996710301, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996710346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996710355, "dur":141768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996852146, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996852169, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996852215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996852224, "dur":123801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996976046, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093996976065, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996976123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093996976128, "dur":88383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997064531, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997064553, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997064590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997064596, "dur":170764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997235383, "dur":587066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997822450, "dur":8521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997830986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997830996, "dur":85785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997916803, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093997916824, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997916860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684093997916867, "dur":671772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684093998588654, "dur":14662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995385649, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995385650, "dur":11400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995397050, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684093995397145, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995397227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995409022, "dur":117860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684093995526913, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684093995526975, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995527013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995527021, "dur":188129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684093995715171, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093995715188, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995715214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995715231, "dur":138889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093995854142, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093995854176, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995854213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093995854221, "dur":178557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996032808, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996032835, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996032878, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996032902, "dur":115444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996148368, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996148392, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996148429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996148436, "dur":211209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996359670, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996359696, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996359745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996359757, "dur":263121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996622901, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996622923, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996622965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996622972, "dur":128779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996751777, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996751802, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996751849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996751858, "dur":114735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996866648, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996866676, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996866931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996866940, "dur":50099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996917063, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996917092, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996917141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996917150, "dur":39413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996956588, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093996956610, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996956648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093996956656, "dur":323374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997280053, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997280076, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997280153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997280163, "dur":438495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997718680, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997718703, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997718751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997718759, "dur":113117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997831898, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093997831920, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997831961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093997831967, "dur":296584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093998128574, "dur":219503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093998348078, "dur":43354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093998391439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093998391445, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684093998392711, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1684093998392734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093998392739, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1684093998394262, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1684093998394297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093998394301, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1684093998395276, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684093998395307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684093998395312, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684093998399574, "dur":203731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995385679, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995385680, "dur":11327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995397021, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684093995397152, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995397252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995408923, "dur":7079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684093995416025, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1684093995416082, "dur":1120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995417211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995417279, "dur":110070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1684093995527375, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684093995527417, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995527579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093995527584, "dur":517559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1684093996045161, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996045182, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996045210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996045216, "dur":445079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996490323, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996490346, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996490386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996490394, "dur":147762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996638178, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996638198, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996638234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996638241, "dur":64868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996703131, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996703160, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996703198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996703206, "dur":53191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996756419, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996756441, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996756483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996756490, "dur":114369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996870885, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996870907, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996870947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996870955, "dur":117770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996988753, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093996988775, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996988813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093996988820, "dur":80255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997069095, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997069116, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997069153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997069161, "dur":56697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997125883, "dur":185461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997311345, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997311416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997311424, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997312727, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997312746, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997312778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997312784, "dur":125583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997438391, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997438412, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997438450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997438458, "dur":253178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997691661, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093997691685, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997691727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093997691737, "dur":356789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093998048547, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093998048568, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998048603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998048611, "dur":221341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684093998269971, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270098, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270140, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270770, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998270806, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684093998272812, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684093998272844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998272852, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684093998275072, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1684093998275104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998275109, "dur":116662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1684093998391792, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684093998391817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998391822, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684093998392934, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1684093998392958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998392962, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1684093998394922, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684093998394945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684093998394950, "dur":5957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684093998400927, "dur":202398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995385451, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995385452, "dur":11547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995397020, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1684093995397109, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995397161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995399012, "dur":18248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1684093995417284, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684093995417323, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995417421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995417520, "dur":111839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684093995529385, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1684093995529433, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995529599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093995530221, "dur":477667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1684093996007919, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996007949, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996007998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996008007, "dur":137976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996146021, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996146048, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996146095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996146106, "dur":207414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996353671, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996353694, "dur":5091, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996358798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996358808, "dur":238913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996597747, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996597772, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996597816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996597912, "dur":147138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996745073, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996745097, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996745168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996745178, "dur":87112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996832318, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093996832445, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996832496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093996832503, "dur":231981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997064505, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997064525, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997064587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997064594, "dur":363573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997428195, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997428222, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997428282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997428293, "dur":426130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997854450, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093997854472, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997854531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093997854539, "dur":149978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093998004538, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Finished Game/MiniGolf_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093998004557, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093998004594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684093998004601, "dur":598648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Finished Game/MiniGolf_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684093998603267, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1684093998603270, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684093998606345, "dur":3203, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684093998681847, "dur": 1060, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684093998681749, "dur": 1205, "ph": "X", "name": "Write chrome-trace events", "args": {} },
